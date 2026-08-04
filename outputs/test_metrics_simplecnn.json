@@ -1,0 +1,128 @@
+{
+  "checkpoint": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\saved_models\\simplecnn_model.pth",
+  "architecture": "simplecnn",
+  "n_params": 1207975,
+  "test_accuracy": 0.48940464177598386,
+  "macro_f1": 0.19291237256772634,
+  "weighted_f1": 0.5221272738873937,
+  "macro_auc": 0.7239076791650019,
+  "avg_inference_latency_ms": 77.74380147457123,
+  "per_class": {
+    "akiec": {
+      "precision": 0.11403508771929824,
+      "recall": 0.4642857142857143,
+      "f1": 0.18309859154929578,
+      "support": 28.0,
+      "roc_auc": 0.813825841863225
+    },
+    "bcc": {
+      "precision": 0.12903225806451613,
+      "recall": 0.07407407407407407,
+      "f1": 0.09411764705882353,
+      "support": 54.0,
+      "roc_auc": 0.7764536147673821
+    },
+    "bkl": {
+      "precision": 0.18461538461538463,
+      "recall": 0.43243243243243246,
+      "f1": 0.2587601078167116,
+      "support": 111.0,
+      "roc_auc": 0.6149160524160523
+    },
+    "df": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11.0,
+      "roc_auc": 0.8326530612244899
+    },
+    "mel": {
+      "precision": 0.14473684210526316,
+      "recall": 0.0990990990990991,
+      "f1": 0.11764705882352941,
+      "support": 111.0,
+      "roc_auc": 0.5000102375102375
+    },
+    "nv": {
+      "precision": 0.808300395256917,
+      "recall": 0.6122754491017964,
+      "f1": 0.696763202725724,
+      "support": 668.0,
+      "roc_auc": 0.7400748039524665
+    },
+    "vasc": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 8.0,
+      "roc_auc": 0.7894201424211598
+    }
+  },
+  "confusion_matrix": [
+    [
+      13,
+      1,
+      9,
+      0,
+      1,
+      4,
+      0
+    ],
+    [
+      17,
+      4,
+      12,
+      0,
+      1,
+      20,
+      0
+    ],
+    [
+      27,
+      4,
+      48,
+      0,
+      6,
+      26,
+      0
+    ],
+    [
+      5,
+      2,
+      3,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      20,
+      3,
+      38,
+      0,
+      11,
+      39,
+      0
+    ],
+    [
+      31,
+      17,
+      150,
+      4,
+      57,
+      409,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ]
+  ],
+  "confusion_matrix_plot": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\outputs\\confusion_matrix\\confusion_matrix_simplecnn.png",
+  "roc_curve_plot": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\outputs\\roc_curves\\roc_curves_simplecnn.png"
+}
