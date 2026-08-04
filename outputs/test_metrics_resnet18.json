@@ -1,0 +1,128 @@
+{
+  "checkpoint": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\saved_models\\resnet18_model.pth",
+  "architecture": "resnet18",
+  "n_params": 11180103,
+  "test_accuracy": 0.6165489404641776,
+  "macro_f1": 0.4037801949846764,
+  "weighted_f1": 0.6598857165151769,
+  "macro_auc": 0.8725059516553918,
+  "avg_inference_latency_ms": 30.488932132720947,
+  "per_class": {
+    "akiec": {
+      "precision": 0.1509433962264151,
+      "recall": 0.5714285714285714,
+      "f1": 0.23880597014925373,
+      "support": 28.0,
+      "roc_auc": 0.9265316718587746
+    },
+    "bcc": {
+      "precision": 0.44,
+      "recall": 0.2037037037037037,
+      "f1": 0.27848101265822783,
+      "support": 54.0,
+      "roc_auc": 0.8687497529546623
+    },
+    "bkl": {
+      "precision": 0.4444444444444444,
+      "recall": 0.43243243243243246,
+      "f1": 0.4383561643835616,
+      "support": 111.0,
+      "roc_auc": 0.8171785421785422
+    },
+    "df": {
+      "precision": 0.1,
+      "recall": 0.36363636363636365,
+      "f1": 0.1568627450980392,
+      "support": 11.0,
+      "roc_auc": 0.87291280148423
+    },
+    "mel": {
+      "precision": 0.3177570093457944,
+      "recall": 0.6126126126126126,
+      "f1": 0.41846153846153844,
+      "support": 111.0,
+      "roc_auc": 0.8140663390663391
+    },
+    "nv": {
+      "precision": 0.9444444444444444,
+      "recall": 0.687125748502994,
+      "f1": 0.7954939341421143,
+      "support": 668.0,
+      "roc_auc": 0.905762777849873
+    },
+    "vasc": {
+      "precision": 0.4166666666666667,
+      "recall": 0.625,
+      "f1": 0.5,
+      "support": 8.0,
+      "roc_auc": 0.9023397761953205
+    }
+  },
+  "confusion_matrix": [
+    [
+      16,
+      2,
+      5,
+      3,
+      2,
+      0,
+      0
+    ],
+    [
+      25,
+      11,
+      7,
+      5,
+      4,
+      2,
+      0
+    ],
+    [
+      17,
+      3,
+      48,
+      4,
+      28,
+      11,
+      0
+    ],
+    [
+      3,
+      0,
+      1,
+      4,
+      2,
+      1,
+      0
+    ],
+    [
+      18,
+      2,
+      9,
+      2,
+      68,
+      12,
+      0
+    ],
+    [
+      27,
+      5,
+      38,
+      22,
+      110,
+      459,
+      7
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      5
+    ]
+  ],
+  "confusion_matrix_plot": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\outputs\\confusion_matrix\\confusion_matrix_resnet18.png",
+  "roc_curve_plot": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\outputs\\roc_curves\\roc_curves_resnet18.png"
+}
