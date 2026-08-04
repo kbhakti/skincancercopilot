@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "architecture": "resnet18",
+      "n_params": 11180103,
+      "best_val_f1": 0.411425765021691,
+      "best_val_acc": 0.5849342770475228,
+      "epochs_run": 2,
+      "total_train_time_s": 793.0076522827148,
+      "test_accuracy": 0.6165489404641776,
+      "macro_f1": 0.4037801949846764,
+      "weighted_f1": 0.6598857165151769,
+      "macro_auc": 0.8725059516553918,
+      "avg_inference_latency_ms": 30.488932132720947,
+      "checkpoint_path": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\saved_models\\resnet18_model.pth"
+    },
+    {
+      "architecture": "efficientnet_b0",
+      "n_params": 4016515,
+      "best_val_f1": 0.3830708981598706,
+      "best_val_acc": 0.5055611729019212,
+      "epochs_run": 2,
+      "total_train_time_s": 702.3586459159851,
+      "test_accuracy": 0.508577194752775,
+      "macro_f1": 0.36755768644803444,
+      "weighted_f1": 0.5607367854184049,
+      "macro_auc": 0.8568798906266676,
+      "avg_inference_latency_ms": 26.44302248954773,
+      "checkpoint_path": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\saved_models\\efficientnet_b0_model.pth"
+    },
+    {
+      "architecture": "simplecnn",
+      "n_params": 1207975,
+      "best_val_f1": 0.21712783204643188,
+      "best_val_acc": 0.4878665318503539,
+      "epochs_run": 2,
+      "total_train_time_s": 1629.9903762340546,
+      "test_accuracy": 0.48940464177598386,
+      "macro_f1": 0.19291237256772634,
+      "weighted_f1": 0.5221272738873937,
+      "macro_auc": 0.7239076791650019,
+      "avg_inference_latency_ms": 77.74380147457123,
+      "checkpoint_path": "C:\\Users\\kanun\\Desktop\\USD\\Capstone\\skincancercopilot\\saved_models\\simplecnn_model.pth"
+    }
+  ],
+  "selected_architecture": "resnet18"
+}
